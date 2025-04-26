@@ -17,6 +17,10 @@ describe('Testing the calculate function', () => {
     expect(operations('/', 10, 2)).toBe(5);
   });
 
+  it('should return the correct power', () => {
+    expect(operations('^', 2, 3)).toBe(8);
+  });
+
   it('should return an error for invalid operator', () => {
     expect(operations('%', 10, 2)).toBe('Operazione non valida!');
   });
