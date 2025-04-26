@@ -10,6 +10,7 @@ Entrambe le versioni implementano le quattro operazioni matematiche fondamentali
 - Sottrazione (`-`)
 - Moltiplicazione (`*`)
 - Divisione (`/`)
+- Potenza (`^`)
 
 ## Installazione
 
