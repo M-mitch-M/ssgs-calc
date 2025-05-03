@@ -35,9 +35,9 @@ Se la versione non è compatibile, scarica e installa una versione aggiornata da
 
 ## Utilizzo
 
-Per eseguire la versione interattiva:
+Per eseguire il programma:
 ```bash
-node mainplus_input.js
+node ./calculator.js
 ```
 
 ## Test
