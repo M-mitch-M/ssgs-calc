@@ -1,13 +1,23 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "main": "mainplus.test.js",
+  "main": "calculator.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "keywords": ["math, calculator, utility"],
+  "author": "Mattia (M-mitch-M)",
   "license": "ISC",
-  "description": ""
+  "description": "A simple calculator utility for some mathematical operations (+, -, *, /, ^).",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-mitch-M/ssgs-calc.git"
+  },
+  "homepage": "https://github.com/M-mitch-M/ssgs-calc"
 }
